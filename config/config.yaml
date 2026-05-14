@@ -63,10 +63,6 @@ platforms:
       name: "澎湃新闻"
     - id: "bilibili-hot-search"
       name: "bilibili 热搜"
-    - id: "cls-hot"
-      name: "财联社热门"
-    - id: "ifeng"
-      name: "凤凰网"
     - id: "weibo"
       name: "微博"
     - id: "douyin"
@@ -85,7 +81,7 @@ platforms:
 # max_age_days: 可选，覆盖全局 freshness_filter.max_age_days
 # ===============================================================
 rss:
-  enabled: true                       # 是否启用 RSS 抓取
+  enabled: false                       # 是否启用 RSS 抓取
 
   # 文章新鲜度过滤配置（全局默认值）
   # 过滤掉发布时间超过指定天数的旧文章，避免同一篇文章重复出现在推送中
@@ -148,7 +144,7 @@ report:
   # 关键词模式分组排序方式（仅 keyword 模式生效）
   # true: 按 frequency_words.txt 的定义顺序排列
   # false: 按匹配到的热点条数排序（条数多的在前）
-  sort_by_position_first: false
+  sort_by_position_first: True
 
   rank_threshold: 5                   # 排名高亮阈值（影响展示强调，不改变抓取范围）
 
@@ -166,12 +162,12 @@ report:
 # 5) 这里决定“筛选路径”，不决定 AI 模型（模型在 ai 段）
 # ===============================================================
 filter:
-  method: "keyword"                     # 可选: keyword | ai
+  method: "ai"                     # 可选: keyword | ai
 
   # AI 模式标签排序开关（仅 ai 模式生效）
   # true: 按标签优先级排序（来自兴趣描述提取顺序）
   # false: 按匹配条数排序（条数多的在前）
-  priority_sort_enabled: false
+  priority_sort_enabled: true
 
 
 # ===============================================================
@@ -248,7 +244,7 @@ display:
     new_items: false # 新增热点区域（含热榜新增 + RSS 新增）
     hotlist: true # 热榜区域（关键词匹配 / AI 智能筛选）
     rss: false # RSS 订阅区域
-    standalone: false # 独立展示区（完整热榜/RSS，不受关键词过滤）
+    standalone: true # 独立展示区（完整热榜/RSS，不受关键词过滤）
     ai_analysis: true # AI 分析区域
   standalone:
     platforms: ["zhihu","wallstreetcn-hot","douyin","weibo","bilibili-hot-search","toutiao"] # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
