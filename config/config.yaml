@@ -62,7 +62,7 @@ platforms:
     - id: "thepaper"
       name: "澎湃新闻"
     - id: "bilibili-hot-search"
-      name: "bilibili 热搜"
+      name: "b站热搜"
     - id: "weibo"
       name: "微博"
     - id: "douyin"
@@ -148,7 +148,7 @@ report:
 
   rank_threshold: 5                   # 排名高亮阈值（影响展示强调，不改变抓取范围）
 
-  max_news_per_keyword: 0             # 每个关键词/标签最大显示数量（0=不限制，仅影响展示裁剪）
+  max_news_per_keyword: 5             # 每个关键词/标签最大显示数量（0=不限制，仅影响展示裁剪）
 
 
 # ===============================================================
@@ -235,8 +235,8 @@ display:
   #   1. 在此列表中
   #   2. 下方 regions 中对应开关为 true
   region_order:
-    - new_items                       # 1️⃣ 新增热点区域
     - hotlist                       # 2️⃣ 热榜区域（关键词匹配 / AI 智能筛选）
+    - new_items                       # 1️⃣ 新增热点区域
     - rss                       # 3️⃣ RSS 订阅区域
     - standalone                       # 4️⃣ 独立展示区
     - ai_analysis                       # 5️⃣ AI 分析区域
@@ -249,7 +249,7 @@ display:
   standalone:
     platforms: ["zhihu","wallstreetcn-hot","douyin","weibo","bilibili-hot-search","toutiao"] # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
     rss_feeds: [] # RSS 源 ID 列表（如 ["hacker-news"]）
-    max_items: 10                     # 每个源最多展示条数（0=不限制）
+    max_items: 5                     # 每个源最多展示条数（0=不限制）
 
 
 # ===============================================================
@@ -481,7 +481,7 @@ ai_analysis:
   include_standalone: true          # 是否将独立展示区数据纳入 AI 分析
                                     # 数据源列表来自 display.standalone.platforms / display.standalone.rss_feeds
 
-  include_rank_timeline: true       # 是否传递完整排名时间线
+  include_rank_timeline: false       # 是否传递完整排名时间线
                                     # false: 使用简化格式（排名范围+时间范围+出现次数）
                                     # true: 传递完整排名变化轨迹（如 1(09:30)→2(10:00)→0(11:00)）
                                     # 启用后 AI 能更精确分析热度趋势，但会额外增加 token 消耗（0.5 倍到 1 倍）
@@ -496,7 +496,7 @@ ai_analysis:
 # 模型配置见上方 ai 配置段
 # ===============================================================
 ai_translation:
-  enabled: true                    # 是否启用翻译功能
+  enabled: false                    # 是否启用翻译功能
 
   # 翻译目标语言
   # 格式：自然语言描述
