@@ -435,7 +435,75 @@ AI芯片
 储能
 固态电池
 @5
+[美股科技巨头与芯片股]
+Intel
+Intel Product
+Intel Foundry
+NVIDIA
+AMD
+Advanced Micro Devices
+Tesla
+Microsoft
+Broadcom
+Apple
+Qualcomm
+Google
+科技股
+tech stock
+AI stock
+chip stock
+@5
 
+[美股市场与指数]
+美股
+美国股市
+US stock market
+Nasdaq
+纳斯达克
+S&P 500
+标普500
+Dow Jones
+道琼斯
+market volatility
+市场波动
+stock rally
+股市上涨
+stock drop
+股市下跌
+@5
+
+[美联储与美国宏观]
+Fed interest rate
+美联储利率
+Federal Reserve meeting
+美联储会议
+US monetary policy
+美国货币政策
+inflation data
+通胀数据
+US CPI
+美国CPI
+PCE
+US nonfarm payroll
+美国非农
+@5
+
+[美股财报与投研]
+earnings report
+财报
+tech earnings
+科技财报
+stock rating
+股票评级
+IPO
+@5
+
+[中概股与大宗商品影响]
+US listed Chinese stock
+中概股
+crude oil impact on stocks
+原油对股市影响
+@5
 # ═══════════════════════════════════════════════════════════════
 #                         可选限制说明
 # ═══════════════════════════════════════════════════════════════
