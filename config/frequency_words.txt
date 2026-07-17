@@ -27,15 +27,10 @@
 # ───────────────────────────────────────────────────────────────
 
 [GLOBAL_FILTER]
-广告
-推广
-营销
 博彩
 赌博
 色情
 擦边
-明星八卦
-娱乐八卦
 
 
 # ───────────────────────────────────────────────────────────────
@@ -46,106 +41,69 @@
 
 
 # ═══════════════════════════════════════════════════════════════
-#                         跨境电商
-# ═══════════════════════════════════════════════════════════════
-
-[跨境电商]
-跨境电商
-跨境贸易
-中国出口
-外贸
-出口企业
-出海
-品牌出海
-卖家出海
-中国品牌出海
-海外仓
-跨境物流
-跨境支付
-海外营销
-全球电商
-亚马逊卖家
-Amazon
-Temu
-Shein
-SHEIN
-TikTok Shop
-速卖通
-AliExpress
-Shopee
-Lazada
-Shopify
-独立站
-DTC
-关税
-贸易摩擦
-海外市场
-供应链出海
-跨境平台
-@5
-
-# ═══════════════════════════════════════════════════════════════
 #                         AI 咨询与 AI 工具
 # ═══════════════════════════════════════════════════════════════
 
-[AI 资讯]
+[AI 最新应用]
 /\bAI\b/i => AI
-人工智能
-生成式AI
-生成式人工智能
-AIGC
-大模型
-多模态
-AI Agent
-智能体
-Agent
+AI最新应用
+AI新应用
+AI应用发布
+AI产品发布
+AI功能更新
+AI落地应用
+生成式AI应用
+多模态应用
+AI Agent应用
+智能体应用
 AI助手
-AI应用
 AI工具
 AI工作流
 AI自动化
-企业AI
-提示词
-Prompt
-提示词工程
-上下文工程
-AI推理
-Token
-API
-MCP
+企业AI应用
+消费级AI
+端侧AI
+AI手机
+AI眼镜
+AI搜索
+AI浏览器
+AI办公
+AI教育
+AI医疗
+AI客服
+AI翻译
+AI科研
+AI应用案例
+AI product launch
+new AI application
+AI use case
+AI agent application
+generative AI application
+consumer AI
+on-device AI
 @5
 
-[AI 模型与平台]
-OpenAI
-ChatGPT
-Claude
-Anthropic
-Gemini
-DeepSeek
-豆包
-通义千问
-Qwen
-Kimi
-月之暗面
-文心一言
-百度文心
-讯飞星火
-智谱清言
-GLM
-MiniMax
-阶跃星辰
-百川智能
-零一万物
-Yi
-Llama
-Meta Llama
-Mistral
-Grok
-xAI
-Perplexity
-@5
-
-[AI 编程]
+[Vibe Coding]
+Vibe Coding
+氛围编程
+自然语言编程
+对话式编程
+AI原生编程
+AI辅助编程
+AI编程工具
+AI代码生成
+编程智能体
+代码智能体
+自主编程智能体
+软件工程智能体
+agentic coding
+AI coding agent
+coding agent
+AI code editor
+natural language programming
+prompt-to-code
+text-to-code
+vibe coded
 Codex
 OpenAI Codex
 GitHub Copilot
@@ -154,356 +112,289 @@ Windsurf
 Claude Code
 Trae
 通义灵码
-AI编程
-代码生成
-代码助手
-自动写代码
-软件工程智能体
-DevOps AI
-自动化测试
-代码审查
-AI办公
-AI PPT
-AI文档
-AI表格
-会议纪要
-智能客服
-企业知识库
+Replit Agent
+Devin
+Gemini CLI
 @5
 
-[AI 图像视频音频]
-图像生成
-AI绘画
-文生图
-图生图
-多模态生成
-Midjourney
-Stable Diffusion
-DALL-E
-即梦
-可灵
-Pika
-Sora
-Veo
-视频生成
-文生视频
-图生视频
-数字人
-虚拟人
-AI主播
-语音合成
-TTS
-语音识别
-ASR
-Whisper
-音乐生成
-Suno
-Udio
-@5
-
-[AI 咨询服务]
-AI咨询
-AI战略咨询
-AI转型咨询
-AI解决方案
-AI项目交付
-AI应用开发
-AI产品设计
-AI流程改造
-AI组织转型
-AI提效
-AI降本增效
-企业数字化转型
-智能化转型
-业务流程自动化
-知识管理
-数据治理
-AI治理
-AI安全
-AI合规
-ai自动化
-工作流
+[AI 广告]
+AI广告
+人工智能广告
+生成式AI广告
+AIGC广告
+AI广告创意
+AI广告投放
+AI营销创意
+AI营销工具
+AI营销自动化
+AI生成广告
+AI视频广告
+AI图片广告
+AI广告素材
+AI数字人广告
+AI虚拟人广告
+广告智能体
+程序化广告
+智能广告投放
+广告大模型
+生成式广告
+AI ad
+AI advertising
+generative AI advertising
+AI ad creative
+AI-generated ads
+AI marketing automation
+AI campaign
+AI media buying
+programmatic advertising
+advertising agent
 @5
 
 # ═══════════════════════════════════════════════════════════════
-#                         大健康 / 东方红
+#                         国际关系
 # ═══════════════════════════════════════════════════════════════
 
-[大健康]
-大健康
-健康产业
-健康中国
-健康管理
-健康服务
-健康消费
-健康科技
-数字健康
-智慧健康
-AI医疗
-医疗AI
-智慧医疗
-预防医学
-慢病管理
-康复医疗
-康复护理
-养生保健
-营养健康
-功能食品
-保健食品
-医养结合
-康养产业
-养老服务
-银发经济
-生命科学
-生物医药
-体重管理
-睡眠健康
-心理健康
-@5
-
-[东方红大健康]
-东方红
-东方红大健康
-东方红医疗
-东方红医药
-东方红健康
-东方红医疗健康
-东方红医药健康
-东方红生物医药
-东方红养老
-东方红康养
-东方红银发经济
+[中美关系]
+中美关系
+中美外交
+中美会谈
+中美元首
+中美峰会
+中美经贸
+中美贸易
+中美谈判
+中美科技竞争
+中美战略竞争
+中美军事关系
+中美关税
+中美贸易战
+中美脱钩
+中美航班
+中美签证
+中美留学
+台海局势
+南海局势
+美国对华政策
+美国对华制裁
+美国对华出口管制
+中国对美政策
+China-US relations
+US-China relations
+China-US talks
+US-China talks
+US policy toward China
+China tariffs
+China export controls
+US-China trade
+US-China technology competition
 @5
 
 # ═══════════════════════════════════════════════════════════════
 #                         银龄科技 / 银发经济
 # ═══════════════════════════════════════════════════════════════
 
-[银龄科技]
-银龄科技
-银发科技
-银发经济
-银发产业
-银龄经济
-老年科技
-适老科技
-适老化
-数字适老化
-适老化改造
-老龄化
-人口老龄化
+[老龄化最新政策]
+老龄化政策
+人口老龄化政策
 积极应对人口老龄化
-康养产业
-智慧康养
-智能养老
-智慧养老
-居家养老
-社区养老
-养老服务
+国家老龄事业
+老龄事业发展
+银发经济政策
+养老政策
+养老服务政策
+基本养老服务
 养老服务体系
-养老机构
-养老社区
+养老服务改革
+养老金融
+养老保险新政
+养老金调整
+延迟退休
+渐进式延迟法定退休年龄
+长期护理保险
+长护险政策
+个人养老金
+企业年金
+社区养老政策
+居家养老政策
+机构养老政策
 普惠养老
-养老产业
-养老机器人
-护理机器人
-陪伴机器人
-康复机器人
-助行机器人
-外骨骼机器人
-健康监测设备
-跌倒检测
-远程监护
-智能床垫
-智能药盒
-可穿戴设备
-老年可穿戴
-慢病管理
-远程医疗
-家庭医生
-健康管理
-居家护理
-康复护理
-认知障碍
-阿尔茨海默病
-老年痴呆
-失能老人
-半失能老人
-长期护理
-长护险
-助餐服务
-居家照护
-上门护理
-适老家居
+农村养老
+医养结合政策
+智慧养老政策
+适老化改造政策
+老年人福利
+老年人权益保障
+老年健康政策
+养老服务补贴
+养老人才政策
+养老产业监管
+银发经济发展
+老龄工作会议
+民政部养老
+国家卫生健康委老龄
+aging policy China
+China elderly care policy
+China pension policy
+long-term care insurance China
+silver economy policy
+retirement age China
+@5
+
+# ═══════════════════════════════════════════════════════════════
+#                         生活科技
+# ═══════════════════════════════════════════════════════════════
+
+[生活相关最新科技]
+生活科技
+消费科技
+科技新品
+智能生活
+未来生活
+智慧家庭
 智能家居
-无障碍改造
-老年消费
-老年教育
-老年旅游
-银发文旅
-老年社交
-老年大学
-医养结合
-康养结合
-老年用品
-老年友好型社会
-年龄友好
-数字鸿沟
-适老化服务
-AgeTech
-Silver Economy
-Senior Tech
-ElderTech
-Aging Tech
-Longevity Economy
-Smart Elderly Care
-Assisted Living
-Remote Care
-Wearables
-Fall Detection
+家庭机器人
+家务机器人
+个人机器人
+可穿戴设备
+智能穿戴
+智能眼镜
+AI眼镜
+智能戒指
+健康监测设备
+睡眠科技
+数字健康设备
+无障碍科技
+适老科技
+智能家电
+新型家电
+个人出行科技
+智能出行
+消费电子新品
+新型电池技术
+无线充电技术
+AR眼镜
+空间计算
+consumer technology
+consumer tech
+smart home technology
+home robot
+wearable technology
+digital health device
+assistive technology
+personal mobility technology
 @5
 
 # ═══════════════════════════════════════════════════════════════
-#                         前沿科技
+#                         求职
 # ═══════════════════════════════════════════════════════════════
 
-[机器人与自动驾驶]
-机器人
-人形机器人
-具身智能
-服务机器人
-工业机器人
-协作机器人
-护理机器人
-陪伴机器人
-机械狗
-四足机器人
-自动驾驶
-无人驾驶
-智驾
-智能驾驶
-辅助驾驶
-Robotaxi
-智能汽车
-车路云
-低空经济
-无人机
-eVTOL
-飞行汽车
+[中国求职]
+中国招聘
+中国求职
+国内招聘
+国内求职
+校招
+校园招聘
+社会招聘
+春招
+秋招
+应届生招聘
+毕业生就业
+人才招聘
+招聘趋势
+就业形势
+就业政策
+人才政策
+人才引进
+灵活就业
+远程工作
+China jobs
+jobs in China
+China hiring
+China recruitment
+China job market
+China employment policy
 @5
 
-[商业航天]
-商业航天
-航天
-火箭
-卫星
-卫星互联网
-空间站
-飞船
-登月
-月球
-火星
-深空探测
-可回收火箭
-星舰
-低轨卫星
-遥感卫星
-北斗
-宇宙
+[英国求职]
+英国招聘
+英国求职
+英国工作机会
+英国就业市场
+英国就业政策
+英国工签
+英国工作签证
+英国毕业生签证
+英国技术工人签证
+英国留学生就业
+英国裁员
+UK jobs
+jobs in UK
+jobs in Britain
+UK hiring
+UK recruitment
+UK job market
+UK employment news
+UK work visa
+Skilled Worker visa
+Graduate visa UK
+UK graduate jobs
+UK layoffs
 @5
 
-[前沿科技]
-量子
-量子计算
-脑机
-脑机接口
-基因
-基因编辑
-合成生物
-生物制造
-芯片
-AI芯片
-先进封装
-光刻机
-数据中心
-算力中心
-边缘计算
-云计算
-6G
-低空经济
-新能源
-储能
-固态电池
-@5
-[美股科技巨头与芯片股]
-Intel
-Intel Product
-Intel Foundry
-NVIDIA
-AMD
-Advanced Micro Devices
-Tesla
-Microsoft
-Broadcom
-Apple
-Qualcomm
-Google
-科技股
-tech stock
-AI stock
-chip stock
+[新加坡求职]
+新加坡招聘
+新加坡求职
+新加坡工作机会
+新加坡就业市场
+新加坡就业政策
+新加坡工作准证
+新加坡就业准证
+新加坡EP
+新加坡S Pass
+新加坡毕业生就业
+新加坡裁员
+Singapore jobs
+jobs in Singapore
+Singapore hiring
+Singapore recruitment
+Singapore job market
+Singapore employment news
+Singapore work visa
+Singapore Employment Pass
+Singapore EP
+Singapore S Pass
+Singapore layoffs
 @5
 
-[美股市场与指数]
-美股
-美国股市
-US stock market
-Nasdaq
-纳斯达克
-S&P 500
-标普500
-Dow Jones
-道琼斯
-market volatility
-市场波动
-stock rally
-股市上涨
-stock drop
-股市下跌
+# ═══════════════════════════════════════════════════════════════
+#                         娱乐关注
+# ═══════════════════════════════════════════════════════════════
+
+[时代少年团]
+时代少年团
+TNT时代少年团
+Teens in Times
+TNT成员
+马嘉祺
+丁程鑫
+宋亚轩
+刘耀文
+张真源
+严浩翔
+贺峻霖
+时代少年团新歌
+时代少年团新专辑
+时代少年团演唱会
+时代少年团巡演
+时代少年团综艺
+时代少年团直播
+时代少年团官宣
+时代少年团活动
+时代少年团获奖
+时代少年团采访
 @5
 
-[美联储与美国宏观]
-Fed interest rate
-美联储利率
-Federal Reserve meeting
-美联储会议
-US monetary policy
-美国货币政策
-inflation data
-通胀数据
-US CPI
-美国CPI
-PCE
-US nonfarm payroll
-美国非农
-@5
-
-[美股财报与投研]
-earnings report
-财报
-tech earnings
-科技财报
-stock rating
-股票评级
-IPO
-@5
-
-[中概股与大宗商品影响]
-US listed Chinese stock
-中概股
-crude oil impact on stocks
-原油对股市影响
-@5
 # ═══════════════════════════════════════════════════════════════
 #                         可选限制说明
 # ═══════════════════════════════════════════════════════════════
